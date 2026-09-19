@@ -3,11 +3,11 @@ name: Python App CI
 on:
     workflow_dispatch:
     push:
-        # paths:
-        #     - "main.py"
-        #     - "Dockerfile"
-        #     - "requirement.txt"
-        #     - ".github/workflows/**"
+        paths:
+            - "main.py"
+            - "Dockerfile"
+            - "requirement.txt"
+            - ".github/workflows/**"
         branches:
             - main
 
