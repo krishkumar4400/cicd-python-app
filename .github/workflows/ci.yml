@@ -4,10 +4,10 @@ on:
     workflow_dispatch:
     push:
         paths:
-            - main.py
-            - Dockerfile
-            - requirement.txt
-            - ci.yml
+            - "main.py"
+            - "Dockerfile"
+            - "requirement.txt"
+            - ".github/workflows/**"
         branches:
             - main
 
